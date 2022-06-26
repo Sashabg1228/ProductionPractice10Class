@@ -158,8 +158,8 @@ void Player::checkHand()
         if(numOfSimilar == 4){
             setIsWinner(1);
             setPoints(hand[i].getValuePoints());
-            cout << "Winner: " << isWinner << endl;
-            cout << "Points: " << points << endl;
+            //cout << "Winner: " << isWinner << endl;
+            //cout << "Points: " << points << endl;
         }
     }
 }
